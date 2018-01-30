@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVMKotlinExample</string>
+
+    <string name="prompt_light_font">opensanslight.ttf</string>
+    <string name="prompt_regular_font">opensansregular.ttf</string>
+    <string name="prompt_medium_font">opensanssemibold.ttf</string>
+    <string name="prompt_bold_font">opensansbold.ttf</string>
+    <string name="prompt_light_italic_font">opensanslightItalic.ttf</string>
+</resources>

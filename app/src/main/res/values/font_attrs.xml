@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="fontAssets" format="string"/>
+	<declare-styleable name="FontTextView">
+		<attr name="fontAssets"/>
+		<attr name="fontColor"  format="color" />
+	</declare-styleable>
+
+	<declare-styleable name="FontEditText">
+		<attr name="fontAssets" />
+		<attr name="textColor"  format="color" />
+	</declare-styleable>
+</resources>
