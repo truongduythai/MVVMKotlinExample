@@ -28,7 +28,7 @@ class ItemRvViewModel(val user: ResultsItem, val context: Context) : BaseObserva
 
     val picture: String
         get() {
-            return user.picture?.thumbnail!!
+            return user.picture!!.thumbnail!!
         }
 
     companion object {

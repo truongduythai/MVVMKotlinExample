@@ -6,4 +6,12 @@
     <string name="prompt_medium_font">opensanssemibold.ttf</string>
     <string name="prompt_bold_font">opensansbold.ttf</string>
     <string name="prompt_light_italic_font">opensanslightItalic.ttf</string>
+    <string name="open_activity">Open Activity</string>
+    <string name="replace_fragment">replace fragment</string>
+    <string name="add_fragment">Add Fragment</string>
+    <string name="viewpager_in_activity">ViewPager in activity</string>
+    <string name="viewpager_in_fragment">ViewPager in fragment</string>
+    <string name="recyclerview">Recycler View</string>
+    <string name="this_is_a_activity_second">This is a Activity Second</string>
+    <string name="this_is_a_second_fragment">This is a Fragment Second</string>
 </resources>

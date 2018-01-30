@@ -86,7 +86,7 @@ public class FontTextView extends AppCompatTextView {
         if (isNormal)
             setFontName(getResources().getString(R.string.prompt_light_font));
         else
-            setFontName(FontManager.Companion.getDEFAULT_FONT());
+            setFontName(FontManager.DEFAULT_FONT);
     }
 
 
@@ -94,7 +94,7 @@ public class FontTextView extends AppCompatTextView {
         if (isBold)
             setFontName(getResources().getString(R.string.prompt_regular_font));
         else
-            setFontName(FontManager.Companion.getDEFAULT_FONT());
+            setFontName(FontManager.DEFAULT_FONT);
     }
 
     public void setSpacing(float spacing) {

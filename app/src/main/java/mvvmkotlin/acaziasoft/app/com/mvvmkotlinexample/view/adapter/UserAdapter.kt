@@ -30,7 +30,7 @@ class UserAdapter(private val users: ArrayList<ResultsItem>) : RecyclerView.Adap
     class ViewHolder(private val binding: ItemRvBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(result: ResultsItem) {
             binding.dataUser = ItemRvViewModel(result, binding.root.context)
-            binding.executePendingBindings()
+//            binding.executePendingBindings()
         }
 
     }

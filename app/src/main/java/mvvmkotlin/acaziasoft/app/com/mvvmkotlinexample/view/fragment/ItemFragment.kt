@@ -1,22 +1,15 @@
 package mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.view.fragment
 
-import android.annotation.SuppressLint
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.fragment_item.*
 import mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.R
 import mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.databinding.FragmentItemBinding
-import mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.manager.CallServices
-import mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.model.DataResponse
 import mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.model.ResultsItem
-import mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.view.ViewInterfaces
 import mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.view.adapter.UserAdapter
 
 

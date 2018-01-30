@@ -30,7 +30,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 bind:imageUrl="@{data_user.picture}" />
 
-            <TextView
+            <mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.CustomView.FontTextView
                 android:id="@+id/tvName"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -42,8 +42,7 @@
                 app:layout_constraintStart_toEndOf="@+id/imgAvatar"
                 app:layout_constraintTop_toTopOf="@+id/imgAvatar" />
 
-            <TextView
-                android:fontFamily="sans-serif"
+            <mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.CustomView.FontTextView
                 android:id="@+id/tvEmail"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -54,8 +53,7 @@
                 app:layout_constraintStart_toStartOf="@+id/tvName"
                 app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
-            <TextView
-                android:fontFamily="sans-serif"
+            <mvvmkotlin.acaziasoft.app.com.mvvmkotlinexample.CustomView.FontTextView
                 android:id="@+id/tvLocation"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

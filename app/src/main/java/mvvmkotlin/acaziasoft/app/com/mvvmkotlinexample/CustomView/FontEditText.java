@@ -63,6 +63,6 @@ public class FontEditText extends AppCompatEditText {
 		if(isNormal)
 			setFontName(getResources().getString(R.string.prompt_light_font));
 		else
-			setFontName(FontManager.Companion.getDEFAULT_FONT());
+			setFontName(FontManager.DEFAULT_FONT);
 	}
 }
